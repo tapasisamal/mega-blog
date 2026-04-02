@@ -11,7 +11,7 @@ function Home() {
 
     useEffect(() => {
         if (userData) {
-            appwriteService.getPosts().then((posts) => {
+            appwriteService.getPosts(userData.$id).then((posts) => {
                 if (posts) {
                     setPosts(posts.documents)
                 }
