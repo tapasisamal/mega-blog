@@ -1,16 +1,46 @@
-# React + Vite
+# Mega Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack blog application where users can create, edit, and manage posts with authentication and image uploads.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [Click here to use Mega Blog](https://your-live-link)
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Authentication (Signup & Login)
+* Create, update, delete blog posts
+* Image upload for posts
+* Rich text editor (TinyMCE)
+* Protected routes for authenticated users
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React, Tailwind CSS
+* Redux Toolkit
+* Appwrite
+* React Hook Form
+* TinyMCE
+
+## ⚙️ Setup
+
+```bash
+git clone <https://github.com/tapasisamal/mega-blog>
+cd mega-blog
+npm install
+npm run dev
+```
+
+## 🔐 Environment Variables
+
+Create a `.env` file with your Appwrite configuration:
+
+```env
+VITE_APPWRITE_URL=
+VITE_APPWRITE_PROJECT_ID=
+VITE_APPWRITE_DATABASE_ID=
+VITE_APPWRITE_COLLECTION_ID=
+VITE_APPWRITE_BUCKET_ID=
+```
+
+---
