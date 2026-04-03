@@ -4,7 +4,7 @@ A full-stack blog application where users can create, edit, and manage posts wit
 
 ## 🌐 Live Demo
 
-🔗 [Click here to use Mega Blog](https://your-live-link)
+🔗 [Visit Mega Blog](https://mega-blog-nine-orpin.vercel.app/)
 
 ## 🚀 Features
 
